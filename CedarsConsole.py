@@ -100,6 +100,7 @@ def connect_mqtt():
         print(e)
 lcd.clear(); lcd.putstr("Cedars Console")
 lcd.clear(); lcd.putstr("V3.1")
+time.sleep(2)
 connect_wifi()
 gc.collect()
 connect_mqtt()
