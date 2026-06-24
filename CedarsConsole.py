@@ -98,7 +98,8 @@ def connect_mqtt():
         mqtt = None
         lcd.clear(); lcd.putstr("MQTT FAIL")
         print(e)
-
+lcd.clear(); lcd.putstr("Cedars Console")
+lcd.clear(); lcd.putstr("V3.1")
 connect_wifi()
 gc.collect()
 connect_mqtt()
