@@ -1,3 +1,4 @@
+#version 3
 import gc, network, time
 from machine import Pin, SoftI2C
 gc.collect()
